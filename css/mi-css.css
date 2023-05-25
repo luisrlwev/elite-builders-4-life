@@ -1,0 +1,343 @@
+*::-moz-selection {
+    background-color: #ffce07;
+    color: #000
+}
+
+*::selection {
+    background-color: #ffce07;
+    color: #000
+}
+
+.banderas {
+    width: 25px
+}
+
+.banner_area .banner_inner .nosotros {
+    background: url(../img/banner/banner-principal.jpg) no-repeat scroll center center;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 125%;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1
+}
+
+.banner_area .banner_inner .soluciones {
+    background: url(../img/banner/banner-principal.jpg) no-repeat scroll center center;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 125%;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1
+}
+
+.banner_area .banner_inner .contacto {
+    background: url(../img/banner/banner-principal.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 125%;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1
+}
+
+.logos-concrete {
+    width: 150px
+}
+
+.logo-principal {
+    width: 249px
+}
+
+.text-10 {
+    font-size: 10px !important
+}
+
+.text-15 {
+    font-size: 15px !important
+}
+
+.text-20 {
+    font-size: 20px !important
+}
+
+.text-25 {
+    font-size: 25px !important
+}
+
+.text-30 {
+    font-size: 30px !important
+}
+
+.text-35 {
+    font-size: 35px !important
+}
+
+.text-40 {
+    font-size: 40px !important
+}
+
+.text-45 {
+    font-size: 45px !important
+}
+
+.text-50 {
+    font-size: 50px !important
+}
+
+.text-55 {
+    font-size: 55px !important
+}
+
+.text-60 {
+    font-size: 60px !important
+}
+
+.text-65 {
+    font-size: 65px !important
+}
+
+.text-70 {
+    font-size: 70px !important
+}
+
+.text-75 {
+    font-size: 75px !important
+}
+
+.text-80 {
+    font-size: 80px !important
+}
+
+.text-85 {
+    font-size: 85px !important
+}
+
+.text-90 {
+    font-size: 90px !important
+}
+
+.text-95 {
+    font-size: 95px !important
+}
+
+.text-100 {
+    font-size: 100px !important
+}
+
+.text-elite {
+    color: #ffce07
+}
+
+.footer-bottom .footer-social a {
+    background: #ffce07;
+    color: #111921
+}
+
+.banner .message {
+    font-size: 15px
+}
+
+.banner.bottom {
+    background: #111921 !important;
+    z-index: 99999 !important
+}
+
+.palette1 .spopupbtnok {
+    color: #111921 !important;
+    background-color: #ffce07 !important
+}
+
+.politicas {
+    color: #fff !important;
+    font-size: 12px
+}
+
+* {
+    scroll-behavior: smooth
+}
+
+.departamentos {
+    text-decoration: none;
+    color: #101921
+}
+
+.departamentos a: hover,
+focus,
+active {
+    text-decoration: none !important;
+    color: #101921 !important
+}
+
+#slider-redes {
+    top: 80% !important
+}
+
+.parallax {
+    background-image: url("../img/paralax.jpg");
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media (max-width: 480px) {
+    .header_area .navbar-collapse {
+        max-height: 100% !important
+    }
+
+    .facebook-img {
+        width: 100%;
+        height: 257px !important
+    }
+
+    .parallax {
+        background-attachment: inherit
+    }
+
+    .footer-area {
+        padding: 0px !important
+    }
+}
+
+@media (min-width: 768px) {
+    .idioma-responsive {
+        display: none
+    }
+
+    .logo-principal {
+        width: 200px
+    }
+}
+
+.content-wrap {
+    margin: 0px !important
+}
+
+.flexible-middle-width .content-wrap {
+    margin: 0px !important;
+    max-width: 100% !important
+}
+
+.crm-webform-submit-button {
+    width: 40% !important
+}
+
+.crm-webform-input {
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 1px solid #ffce07 !important;
+    border-radius: 5px !important
+}
+
+.crm-webform-header-container {
+    text-align: center
+}
+
+.crm-webform-header {
+    color: #222
+}
+
+.riviera-maya {
+    background-image: url(../img/riviera-maya/riviera-maya-fondo.jpg);
+    width: 100%;
+    height: 330px;
+    transition: transform .2s;
+}
+
+.costa-maya {
+    background-image: url(../img/riviera-maya/bacalar-fondo.jpg);
+    width: 100%;
+    height: 330px;
+    transition: transform .2s;
+}
+
+.riviera-maya:hover,
+focus,
+active {
+    transform: scale(1.02)
+}
+
+.costa-maya:hover,
+focus,
+active {
+    transform: scale(1.02)
+}
+
+.interlineado {
+    line-height: 50px;
+    font-family: "Oswald"
+}
+
+.background-negro {
+    background-color: #00000070;
+    width: 100%;
+    height: 100%
+}
+
+.background-negro:hover,
+focus,
+active {
+    background-color: #00000095
+}
+
+.background-negro p:hover,
+focus,
+active {
+    font-size: 43px
+}
+
+.text-black {
+    color: #101921 !important
+}
+
+.white_bg_btn {
+    border: 1px solid #ffce07 !important
+}
+
+.btn-elite {
+    color: #222 !important;
+    background-color: #ffce07;
+    border-color: #ffce07
+}
+
+.btn-elite: hover,
+focus,
+active {
+    color: #ffce07 !important;
+    background-color: transparent !important;
+    border-color: #ffce07 !important
+}
+
+.window.banner {
+    padding: 6px 1.8em !important
+}
+
+.b24-form-btn {
+    background-color: #ffce07 !important
+}
+
+.b24-form-btn:hover {
+    background-color: #ffdd56 !important
+}
+
+.b24-form-wrapper.b24-form-border-bottom {
+    border-bottom: 5px solid #ffce07 !important
+}
+
+.border-radius{
+	border-radius: 5px !important;
+}
